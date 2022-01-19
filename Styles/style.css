@@ -195,14 +195,37 @@ a {
   font-size: 18px;
 }
 
+/* Otros productos */
+
+.otros-productos {
+  margin-top: 250px;
+  margin-bottom: 250px;
+  text-align: center;
+}
 
 .titulo-otrosProductos {
   font-size: 75px;
+  margin-bottom: 75px;
+}
+
+.cards-otros-productos{
+  display: flex;
+  justify-content: center;
+}
+
+.card-otro-producto{
+  margin-left: 56px;
 }
 
 .img-otrosProductos{
-  width: 150px;
+  width: 340px;
+  height: 511px;
 }
+
+.nombre-otro-producto{
+  font-size: 24px;
+}
+
 
 
 /* footer */
