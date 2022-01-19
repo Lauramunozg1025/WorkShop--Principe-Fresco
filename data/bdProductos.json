@@ -1,0 +1,48 @@
+{
+    "productos": [
+        {
+        "id": 1,
+        "nombre": "Buso Coronas",
+        "descripcion": "Buso con estampados de coronas que te daran un toque realmente diferente. Estilo 80's moderno.",
+        "precio": "89000",
+        "imagenes" :[ 
+                    {"imagen1":"./data/img/1/img1.png"},
+                    {"imagen2":"./data/img/1/img2.png"},
+                    {"imagen3":"./data/img/1/img3.png"}
+                    ]
+        },
+      {
+        "id": 2,
+        "nombre": "Fresh BLACK",
+        "descripcion": "Buso Fresh BLACK, ideal para salir de rumba con tus amigos, estilo punk con algodones del himalya y estampados resinas zeolitica.",
+        "precio": "75900",
+        "imagenes" :[ 
+                    {"imagen1":"./data/img/2/img1.png"},
+                    {"imagen2":"./data/img/2/img2.png"},
+                    {"imagen3":"./data/img/2/img3.png"}
+                    ]
+        },
+      {
+        "id": 3,
+        "nombre": "Buso WHITE Friends",
+        "descripcion": "Buso WHITE Friends, estampado del principe del rap fondo blanco, este estilo vintage es unico con su algodon cocodrilico",
+        "precio": "99000",
+        "imagenes" :[ 
+                    {"imagen1":"./data/img/3/img1.png"},
+                    {"imagen2":"./data/img/3/img2.png"},
+                    {"imagen3":"./data/img/3/img3.png"}
+                    ]
+        },
+        {
+            "id": 4,
+            "nombre": "Buso rayas FRESH",
+            "descripcion": "Buso rayas FRESH, rayas vinotinto y verdes. Resortes en las mangas y muy ideal del estilo Carlton Banks",
+            "precio": "95900",
+            "imagenes" :[ 
+                        {"imagen1":"./data/img/4/img1.jpeg"},
+                        {"imagen2":"./data/img/4/img2.jpeg"},
+                        {"imagen3":"./data/img/4/img3.jpeg"}
+                        ]
+            }
+    ]
+  }
