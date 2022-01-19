@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,313&family=Oooh+Baby&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 100%;
+    justify-content: flex-end;
+}
+
+/* Nav */
+
+nav {
+    padding: 2%;
+}
+
+.item-nav {
+    display: inline-block;
+}
+
+.titulo-nav {
+    font-family: 'Oooh Baby', cursive;
+    font-size: 375%;
+    font-weight: bold;
+    color: #FF4C13;
+}
+
+.center {
+    margin-left: 25%;
+}
+
+.shopCollections {
+    font-size: 24px;
+    margin-right: 25px;
+    font-weight: 450;
+}
+
+.right {
+    float: right;
+    margin-right: 8%;
+}
+
+.usersCarrito {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 15%;
+}
+
+.producto {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    min-height: 100%;
+    margin-bottom: 10%;
+}
+
+.container {
+    width: 100%;
+}
+
+.imagen-producto {
+    width: 80%;
+}
+
+.info-producto {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    max-width: fit-content;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.nombre-producto {
+    font-size: 300%;
+}
+
+.precio-producto {
+    width: 100%;
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.add {
+    width: 70%;
+    height: 7%;
+    background: #1D1D1D;
+    color: white;
+    font-size: 22px;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.descripcion-producto {
+    width: 80%;
+    font-size: 18px;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: static;
+}
+
+footer img {
+    width: 100%;
+    height: max-content;
+    object-fit: cover;
+    margin-bottom: 2%;
+}
+
+.footer {
+    height: 937.5%;
+    background-color: #1D1D1D;
+    color: white;
+    text-align: center;
+}
+
+.nombre-footer {
+    font-family: 'Oooh Baby', cursive;
+    font-size: 150%;
+    font-weight: bold;
+    color: #FF4C13;
+}
+
+.redes-sociales {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width : 1005px) {
+    body {
+        margin: auto 0;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+    .producto {
+        flex-direction: column;
+    }
+
+    .titulo-nav{
+        font-size: 250%;
+    }
+}
+
+@media only screen and (max-width : 1105px) {
+
+    .shopCollections{
+        visibility: collapse;
+        width: 1px;
+        font-size: 2px;
+        margin:  0;
+    }
+    
+
+    .descripcion-producto{
+        visibility: collapse;
+        height: 5px;
+
+    }
+}
