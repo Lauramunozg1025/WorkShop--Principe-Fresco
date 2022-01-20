@@ -1,7 +1,7 @@
 import showProductos from  "./showProductos.js"
 import getData from "./getData.js"
 import getCarrito from "./getCarrito.js"
-import getLocalStorage from "./detalleProducto.js"
+
 import { bdProd } from "./url.js"
 
 
@@ -31,15 +31,16 @@ document.addEventListener('click', async e=>{
         console.log(objeto)
             
         localStorage.setItem("Producto", JSON.stringify(objeto))
-        getLocalStorage() 
         window.location.href = "infoProducto.html"
         
     }
 })
 
-const vin = document.getElementById('vinculo-modal')
-vin.addEventListener('click', e=>{
+const vinculo = document.getElementById('vinculo-modal')
+vinculo.addEventListener('click', e=>{
+    
     getCarrito()
+    console.log(vinculo)
 })
 
 
