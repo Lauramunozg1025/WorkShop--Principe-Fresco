@@ -7,9 +7,6 @@ import { bdProd } from "./url.js"
 
 const productosCatalogo = document.querySelector('.main')
 
-
-
-
 document.addEventListener('DOMContentLoaded', async () =>{
         const data = await getData(bdProd)
         showProductos(data, productosCatalogo)
