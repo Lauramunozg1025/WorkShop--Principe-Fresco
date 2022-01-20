@@ -1,0 +1,1 @@
+export const bdProd = "http://localhost:3000/productos/"

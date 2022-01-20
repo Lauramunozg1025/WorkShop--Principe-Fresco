@@ -1,6 +1,9 @@
 import showProductos from  "./showProductos.js"
 import getData from "./getData.js"
-const bdProd = "http://localhost:3000/productos/"
+import getCarrito from "./getCarrito.js"
+import getLocalStorage from "./detalleProducto.js"
+import { bdProd } from "./url.js"
+
 
 const productosCatalogo = document.querySelector('.main')
 
@@ -14,6 +17,7 @@ document.addEventListener('DOMContentLoaded', async () =>{
     
 })
 
+//seccion para ir a la pagina de la descripcion del producto
 document.addEventListener('click', async e=>{
     
     const btnDetail = e.target.classList.contains('btnAgregar')
@@ -22,9 +26,20 @@ document.addEventListener('click', async e=>{
     if(btnDetail){
         const lista = await getData(bdProd)
         console.log(lista)
-        const objeto = lista.find(list => list.id === Number(id))        
+        const objeto = lista.find(list => list.id === Number(id)) //borrrar
+        console.log('llamada a detlla')
+        console.log(objeto)
+            
         localStorage.setItem("Producto", JSON.stringify(objeto))
+        getLocalStorage() 
         window.location.href = "infoProducto.html"
         
     }
 })
+
+const vin = document.getElementById('vinculo-modal')
+vin.addEventListener('click', e=>{
+    getCarrito()
+})
+
+

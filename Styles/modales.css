@@ -20,6 +20,7 @@
 }
 
 .modalDialog>div {
+    float:right;
     width: 500px;
     height: 995px;
     position: relative;
@@ -27,6 +28,8 @@
     background: rgb(255, 255, 255);
     overflow: auto;
 }
+
+
 
 /* .modalDialog>div::-webkit-scrollbar {
 } */

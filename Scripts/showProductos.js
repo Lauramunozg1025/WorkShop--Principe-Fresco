@@ -15,7 +15,7 @@ const showProductos = async (data, div) => {
             <div class="info-producto">
                 <h1 class="nombre-producto">${nombre}</h1>
                 <b class="precio-producto">$${precio}</b><br>
-                <button class="add btnAgregar" id=${id}> <a id=${id} href="" class="btnAgregar" style="text-decoration: none; color: white;">ADD TO CART</a></button> <br>
+                <button class="add btnAgregar" id=${id}> <a id=${id} href="" class="btnAgregar" style="text-decoration: none; color: white;">VIEW PRODUCT</a></button> <br>
                 <p class="descripcion-producto">
                 ${descripcion}
                 </p>
